@@ -20,8 +20,8 @@ appConfig:
 
 # Main content - An array of sections, each containing an array of items
 sections:
-  - name: 
-    icon:
+  - name: Widgets
+    icon: fas fa-rocket
     items:
       - type: clock
         options:
