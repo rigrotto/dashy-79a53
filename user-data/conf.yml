@@ -12,6 +12,21 @@ pageInfo:
 # Optional app settings and configuration
 appConfig:
   theme: colorful
+    externalStyleSheets:
+    - https://fonts.googleapis.com
+  customCss: |
+    /* Headings: h1, h2, h3, h4, h5, h6 */
+    h1, h2, h3, h4, h5, h6, .title {
+      font-family: 'Funnel Display', sans-serif !important;
+    }
+    /* Body text: Applied globally, but Dashy themes have specific variables */
+    body, p, span {
+      font-family: 'Inter', sans-serif !important;
+    }
+    /* Monospace text: Code blocks, etc */
+    code, pre, .code {
+      font-family: 'JetBrains Mono', monospace !important;
+    }
 
 # Main content - An array of sections, each containing an array of items
 sections:
