@@ -14,9 +14,9 @@ appConfig:
   theme: colorful
   auth:
     users:
-      - user: riley.ianson
-        hash: ec549ff91e41b6dd73f1db84fbaf3d794240711eb8bc9bc83a51771b201486b3
-        type: admin
+    - user: riley
+      hash: ec549ff91e41b6dd73f1db84fbaf3d794240711eb8bc9bc83a51771b201486b3
+      type: admin
 
 # Main content - An array of sections, each containing an array of items
 sections:
