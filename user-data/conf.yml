@@ -20,6 +20,25 @@ appConfig:
 
 # Main content - An array of sections, each containing an array of items
 sections:
+  - name: 
+    icon:
+    items:
+      - type: clock
+        options:
+          timeZone: Australia/Sydney
+          format: en-AU
+          hideDate: false
+      - type: weather-forecast
+        options:
+          city: Sydney
+          numDays: 7
+          apiKey: 42ea73b861a928c9ff843f8595adf4f9
+          units: metric
+      - type: sports-scores
+        options:
+          teamId: 134865
+      - type: system-info
+      
   - name: Getting Started
     icon: fas fa-rocket
     items:
